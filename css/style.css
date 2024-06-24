@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 68px;
+    position: fixed;
+    z-index: 1;
+    /* top: 0%; */
+}
+
+.menu a {
+    text-decoration: none;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bold;
+    color: #ff2b85;
+    padding: 0 10px;
+}
+.menu  button{
+    width: 103px;
+    height: 31px;
+    border-radius: 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    background: linear-gradient(to right,yellow,black);
+}
+.menu button:hover{
+    background: linear-gradient(to right,green,red);
+    transition: 1s;
+}
+
+.banner {
+    background: url(../image/foodpanda\ image.jpeg);
+    width: 100%;
+    height: 500px;
+}
+
+.banner h1 {
+    text-align: justify;
+    color: white;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    /* padding-top: 153px; */
+    display: flex;
+    justify-content: center;
+}
+.banner .search{
+    position: relative;
+    top: 210px;
+}
+.banner .search input{
+    width: 600px;
+    height: 38px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-size: 16px;
+    color: white;
+    background: rgba(0,0,0,0.8);
+    padding-left: 10px;
+    margin-top: 20px;
+}
+::placeholder{
+    color: white;
+}
+
+.news {
+    background: linear-gradient(to right, yellow, black, green);
+    width: 100%;
+    height: 50px;
+    padding: 0 100px;
+    margin-top: 359px;
+}
+
+.news marquee {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: cursive;
+    line-height: 52px;
+}
+
+.banner .h {
+    text-align: center;
+    font-size: 60px;
+    font-family: cursive;
+    color: blueviolet;
+    background: yellow;
+    position: relative;
+    top: 225px;
+    margin: auto;
+    width: 70%;
+}
+
+.about {
+    padding: 150px 200px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin-bottom: 11px;
+}
+
+.about p {
+    font-family: sans-serif;
+    line-height: 27px;
+}
+
+.about button {
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background: #ff2b85;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+.press {
+    background: url(../image/foody.png);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    /* background-attachment: fixed; */
+}
+
+.press {
+    padding: 150px 200px;
+    text-align: center;
+}
+
+.press h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 4px;
+    margin-bottom: 11px;
+    color: #ff2b85;
+}
+
+.press p {
+    font-family: cursive;
+    line-height: 27px;
+    color:#ff2b85;
+    font-size: 20px;
+}
+
+.press button {
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background: #ff2b85;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+.team {
+    background: url(../image/space12.avif);
+    width: 100%;
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.team {
+    padding: 150px 200px;
+    text-align: center;
+}
+
+.team h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 4px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.team p {
+    font-family: cursive;
+    line-height: 27px;
+    color: white;
+    font-size: 20px;
+}
+
+.team button {
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background: #ff2b85;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+.contact {
+    background: #ff2b85;
+    width: 100%;
+    height: 450px;
+
+}
+
+.contact {
+    padding: 150px 200px;
+    text-align: center;
+}
+
+.contact h3 {
+    font-size: 34px;
+    text-transform: uppercase;
+    font-family: cursive;
+    letter-spacing: 4px;
+    margin-bottom: 11px;
+    color: white;
+}
+
+.contact p {
+    font-family: cursive;
+    line-height: 27px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact button {
+    width: 137px;
+    height: 38px;
+    margin-top: 20px;
+    background: black;
+    border: none;
+    border-radius: 9px;
+    color: white;
+    font-size: 17px;
+}
+
+footer {
+    background: black;
+    width: 100%;
+    height: 400px;
+}
+
+.footer-content img{
+    margin-top: 20px;
+    margin-left: 56px;
+    margin-top: 69px;
+}
+.footer-content p{
+    width: 220px;
+   padding-top: 84px;
+    margin-left: 52px;
+   padding-top: 26px;
+    color: white;
+}
+.footer-content1{
+    color: white;
+    margin-left: 390px;
+    margin-top: -255px;
+    font-size: 27px;
+}
+.footer-content1 a{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.footer-content2 {
+    color: white;
+    margin-left: 600px;
+    margin-top: -235px;
+    font-size: 27px;
+}
+.footer-content2 a{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+}
+.footer-content2 {
+    color: white;
+    margin-left: 600px;
+    margin-top: -235px;
+    font-size: 27px;
+}
+.footer-content2 a{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.footer-content3 {
+    color: white;
+    margin-left: 850px;
+    margin-top: -235px;
+    font-size: 27px;
+}
+.footer-content3 a{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+}
+
+.footer-content4 {
+    color: white;
+    margin-left: 1100px;
+    margin-top: -235px;
+    font-size: 27px;
+}
+.footer-content4 a{
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 25px;
+    font-size: 23px;
+    font-style: italic;
+    text-decoration: none;
+    text-align: justify;
+}
